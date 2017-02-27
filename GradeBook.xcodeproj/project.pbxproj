@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F5898391E61A8280013C048 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F5898381E61A8280013C048 /* main.cpp */; };
+		0F5898541E6331820013C048 /* GradeBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F5898531E6331820013C048 /* GradeBook.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		0F5898351E61A8280013C048 /* GradeBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GradeBook; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5898381E61A8280013C048 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0F5898521E630B3F0013C048 /* GradeBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeBook.h; sourceTree = "<group>"; };
+		0F5898531E6331820013C048 /* GradeBook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GradeBook.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0F5898381E61A8280013C048 /* main.cpp */,
+				0F5898521E630B3F0013C048 /* GradeBook.h */,
+				0F5898531E6331820013C048 /* GradeBook.cpp */,
 			);
 			path = GradeBook;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5898541E6331820013C048 /* GradeBook.cpp in Sources */,
 				0F5898391E61A8280013C048 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
